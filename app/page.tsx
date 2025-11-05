@@ -70,7 +70,10 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       {/* Section Wrapper */}
-      <section className="m-5">{/* Start here */}</section>
+      <section className="m-5">
+        {/* Start here */}
+        <img src={imgPath + "illustration.svg"} alt="illustration" />
+      </section>
     </main>
   );
 }
